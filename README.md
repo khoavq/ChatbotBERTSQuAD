@@ -10,6 +10,7 @@ The goal of this project is to produce a question answering system that works we
 
   - Literature Review
   - Basic NLP concept, such as transformer, attetion-based model
+  - Self-learning Python
   
 # Stage II
 
