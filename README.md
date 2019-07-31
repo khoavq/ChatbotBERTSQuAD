@@ -21,3 +21,6 @@ The goal of this project is to produce a question answering system that works we
 
   - Build chatbot model based on Stage I
   - Build chatbot application based on the model and Stage II
+
+[1]https://github.com/google-research/bert
+[2]https://github.com/zihangdai/xlnet
