@@ -1,4 +1,30 @@
-## I.	BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+## I.	Deep contextualized word representations
+
+#### 1.	What is ELMo?
+ELMo stands for Embeddings from Language Models. ELMo is a novel way to represent words in vectors or embeddings.(ELMo) use language models to obtain embeddings for individual words while taking the entire sentence or paragraph into account.
+ 
+#### 2.	Why did the authors conduct the research (existing problems)?
+* complex characteristics of word use (e.g., syn-tax and semantics)
+* how these uses vary across linguistic contexts (i.e., to model polysemy)
+
+#### 3.	What did the authors do (key contributions)?
+* Words representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, tex- tual entailment and sentiment analysis.
+* Exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.
+
+#### 4.	What are the key differences in the method/approach (innovation)?
+ELMo representations are deep, in the sense that they are a function of all of the internal layers of the bidirectional language model (biLM). biLM  has two LSTM layers stacked together, each layer has forward pass and backward pass.
+
+ELMo vector assigned to a token or word is actually a function of the entire sentence containing that word. Therefore, the same word can have different word vectors under different contexts.
+
+
+#### 5.	What are main achievements, significance?
+ * ![alt text](https://drive.google.com/uc?export=view&id=1HkmI9NS5PcXE_5-d472GNQ20oA5hSdat "Main achievements")
+
+
+#### 6.	What can be further improved?
+ELMo pre- dicts a single word from both left and right context using LSTMs, but not at the same time which could cause problem in the fine-tuning phase for token-level task where context is extremely significant.
+
+## II.	BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 #### 1.	What is BERT?
 BERT stands for Bidirectional Encoder Representations from Transformers.
@@ -33,7 +59,7 @@ It assumes the predicted (masked) tokens are independent of each other given the
 Build a chatbot for question and answering based on BERT
 
 
-## II.	XLNet: Generalized Autoregressive Pretraining for Language Understanding
+## III.	XLNet: Generalized Autoregressive Pretraining for Language Understanding
 
 #### 1.	What is XLNet?
 XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation.
