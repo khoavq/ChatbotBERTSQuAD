@@ -18,7 +18,7 @@ ELMo vector assigned to a token or word is actually a function of the entire sen
 
 
 #### 5.	What are main achievements, significance?
- * ![alt text](https://drive.google.com/uc?export=view&id=1HkmI9NS5PcXE_5-d472GNQ20oA5hSdat "Main achievements")
+![alt text](https://drive.google.com/uc?export=view&id=1HkmI9NS5PcXE_5-d472GNQ20oA5hSdat "Main achievements")
 
 
 #### 6.	What can be further improved?
