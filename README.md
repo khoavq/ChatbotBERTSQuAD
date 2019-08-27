@@ -27,4 +27,5 @@ The goal of this project is to produce a question answering system that works we
 [2]https://rajpurkar.github.io/SQuAD-explorer/ \
 [3]https://github.com/zihangdai/xlnet \
 [4]https://jalammar.github.io/illustrated-bert/ \
-[5]https://github.com/hanxiao/bert-as-service#using-bert-as-service-to-serve-http-requests-in-json
+[5]https://github.com/hanxiao/bert-as-service#using-bert-as-service-to-serve-http-requests-in-json\
+[6] https://github.com/guillaume-chevalier/ReuBERT
