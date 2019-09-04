@@ -29,4 +29,5 @@ The goal of this project is to produce a question answering system that works we
 [4]https://jalammar.github.io/illustrated-bert/ \
 [5]https://github.com/hanxiao/bert-as-service#using-bert-as-service-to-serve-http-requests-in-json \
 [6] https://github.com/guillaume-chevalier/ReuBERT \
-[7] https://github.com/huggingface/swift-coreml-transformers
+[7] https://github.com/huggingface/swift-coreml-transformers \
+[8]https://github.com/deepmipt/DeepPavlov
